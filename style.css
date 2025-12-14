@@ -1,0 +1,435 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  color: #c7f0c7;
+  line-height: 1.4;
+  font-size: 16pt;
+  text-align: center;
+  font-family: Helvetica;
+  background-image: url("https://github.com/kristianmartinez016/Project-3/blob/main/assets/Texturelabs_Paper_304L.png?raw=true");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: #6e0d1a;
+}
+
+/* FONTS */
+
+.truculenta-<uniquifier> {
+  font-family: "Truculenta", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
+.berkshire-swash-regular {
+  font-family: "Berkshire Swash", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.caveat-brush-regular {
+  font-family: "Caveat Brush", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+/* MAIN AND HEAD ALL */
+
+header {
+  font-family: Caveat Brush;
+  width: auto;
+  padding: 0 18rem;
+  font-size: 1.25rem;
+}
+
+nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 6rem;
+}
+
+a {
+  color: #637263;
+  text-decoration: none;
+  transition: scale-up 500ms ease-in-out;
+}
+
+a:hover {
+  color: #c7f0c7;
+  font-size: 1.35rem
+}
+
+main {
+  margin: 0 7rem;
+}
+
+h1 {
+  font-family: Berkshire Swash;
+  font-size: 4rem;
+  animation: fade-up 700ms ease-out;
+}
+
+h2 {
+  font-family: Truculenta;
+  font-size: 2rem;
+  font-weight: 800;
+  animation: fade-down 700ms ease-out;
+}
+
+h3 {
+  font-family: Truculenta;
+  font-size: 1.5rem;
+  font-weight: 650;
+  margin-bottom: 1rem;
+  animation: fade-in 700ms ease-out;
+}
+
+p {
+  font-family: Caveat Brush;
+  font-size: 1.15rem;
+  margin-bottom: 1rem;
+  animation: fade-in 900ms ease-out;
+}
+
+img {
+  width: 12.5rem;
+  height: auto;
+  animation: fade-up 900ms ease-out;
+}
+
+/* FOOTER */
+
+footer {
+  background-image: url("https://github.com/kristianmartinez016/Project-3/blob/main/assets/snow.png?raw=true");
+  background-size: cover;
+  background-position: bottom;
+  background-repeat: no-repeat;
+  height: 20rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  line-height: 2rem;
+  align-items: center;
+}
+
+.mystery-link {
+  font-family: Caveat Brush;
+}
+
+.mystery-link:hover {
+  color: #6e0d1a;
+  font-size: 1rem;
+}
+
+/* HOME */
+
+.invitation {
+  margin-bottom: -2rem;
+  margin-top: 1rem;
+}
+
+.title-text {
+  margin-bottom: -1.5rem;
+}
+
+.brothers {
+  display: flex;
+  justify-content: center;
+  align-content: bottom;
+  margin: 2rem 0;
+}
+
+.hook {
+  border-top: 2.5px solid #637263;
+  padding: 3rem 0 3rem; 0;
+}
+
+.info {
+  line-height: 2rem;
+  border: 2.5px solid #637263;
+  border-radius: 3rem;
+  margin: 0 15rem;
+  align-self: center;
+  padding: 1rem 0 0.5rem 0;
+  background-color: rgb(77 21 28 / 65%);
+}
+
+/* ABOUT */
+
+.about-title {
+  border-bottom: 2.5px solid #637263;
+  margin: 2rem 0;
+}
+
+.what-is-this {
+  margin-top: -2.2rem;
+}
+
+.scared {
+  margin: -2rem 0 2rem 0;
+}
+
+.about-text {
+  padding: 0 7.5rem;
+  margin-bottom: 2rem;
+}
+
+.monkey-icon {
+  width: 16.5rem;
+  height: auto;
+}
+
+/* SCHEDULE */
+
+.schedule-title {
+  border-bottom: 2.5px solid #637263;
+  margin: 2rem 0;
+}
+
+.what-we-doing {
+  margin-top: -2.2rem;
+}
+
+.planned {
+  margin: -2rem 0 2rem 0;
+}
+
+.events {
+  display: grid;
+  grid-template: repeat(4, 45%) / repeat(2, 50%);
+  gap: 1.5rem 0;
+  margin-bottom: 35rem;
+}
+
+.dinner-pic {
+  background-image: url("https://github.com/kristianmartinez016/Project-3/blob/main/assets/dinner%202.png?raw=true");
+  background-size: 18rem;
+  background-position: center;
+  background-repeat: no-repeat;
+  animation: fade-in-right 900ms ease-out;
+}
+
+.white-elephant-pic {
+  background-image: url("https://github.com/kristianmartinez016/Project-3/blob/main/assets/white_elephant.png?raw=true");
+  background-size: 18rem;
+  background-position: center;
+  background-repeat: no-repeat;
+  animation: fade-in-left 900ms ease-out;
+}
+
+.christmas-quizmas-pic {
+  background-image: url("https://github.com/kristianmartinez016/Project-3/blob/main/assets/quizmas%202.png?raw=true");
+  background-size: 22rem;
+  background-position: center;
+  background-repeat: no-repeat;
+  animation: fade-in-right 900ms ease-out;
+}
+
+.mystery-pic {
+  background-image: url("https://github.com/kristianmartinez016/Project-3/blob/main/assets/what%202.png?raw=true");
+  background-size: 18rem;
+  background-position: center;
+  background-repeat: no-repeat;
+  animation: fade-in-left 900ms ease-out;
+}
+
+.dinner-text, .white-elephant-text, .christmas-quizmas-text, .mystery-text {
+  text-align: left;
+  align-content: center;
+  padding: 0 2rem;
+  border: 2.5px solid #637263;
+  border-radius: 3rem;
+  background-color: rgb(77 21 28 / 65%);
+}
+
+
+/* KEYFRAME ANIMATIONS */
+
+@keyframes fade-up {
+  0% {
+    opacity: 0;
+    transform: translateY(1rem) scale(0.6);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0px) scale(1);
+  }
+}
+
+@keyframes fade-down {
+  0% {
+    opacity: 0;
+    transform: translateY(-1rem) scale(0.6);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0px) scale(1);
+  }
+}
+
+@keyframes fade-in {
+  0% {
+    opacity: 0;
+    transform: scale(0.8);
+  }
+  100% {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+@keyframes fade-in-right {
+  0% {
+    opacity: 0;
+    transform: translateX(3rem) scale(0.6);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0px) scale(1);
+  }
+}
+
+@keyframes fade-in-left {
+  0% {
+    opacity: 0;
+    transform: translateX(-3rem) scale(0.6);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0px) scale(1);
+  }
+}
+
+
+/* PHONE SCREEN */
+
+@media only screen and (max-width: 480px) {
+  html {
+    font-size: 14px;
+    background-image: url("https://github.com/kristianmartinez016/Project-3/blob/main/assets/phone_bg.png?raw=true");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+
+/* HEADER AND MAIN ALL */
+  
+  header {
+    padding: 0 3rem;
+    font-size: 1.25rem;
+  }
+
+  main {
+    margin: 0 1.5rem;
+  }
+
+  h1 {
+    font-size: 3rem;
+  }
+
+  h2 {
+    font-size: 2rem;
+  }
+  
+
+/* FOOTER */
+
+  footer {
+    background-image: url("https://github.com/kristianmartinez016/Project-3/blob/main/assets/snow_2.png?raw=true");
+    background-size: 30rem;
+    background-position: top;
+    line-height: 1rem;
+    font-size: 1.25rem;
+    line-height: 3.5rem;
+    height: 17rem;
+    margin-top: 4rem
+  }
+
+/* HOME */
+  
+  .paolo-icon, .isaiah-icon, .me-icon {
+    width: 8rem;
+    height: auto;
+  }
+
+  .hook {
+    padding: 2rem 2.5rem;
+  }
+
+  .info {
+    margin: 0 1rem
+  }
+
+  /* ABOUT */
+
+  .about-text {
+    padding: 0 1rem;
+  }
+
+  .monkey-icon {
+    height: 22rem;
+    width: auto
+  }
+
+  /* SCHEDULE */
+
+  .what-we-doing {
+    padding: 0 5rem;
+  }
+
+  .events {
+    display: grid;
+    grid-template: repeat(8, 30%) / repeat(1, 100%);
+    gap: 1.5rem 0;
+    margin-bottom: 82rem;
+  }
+
+  .dinner-pic {
+    background-size: 19rem;
+    order: 1
+  }
+
+  .dinner-text {
+    order: 2;
+    text-align: center;
+  }
+
+  .white-elephant-pic {
+    background-size: 16.5rem;
+    order: 3;
+  }
+
+  .white-elephant-text {
+    order: 4;
+    text-align: center;
+  }
+
+  .christmas-quizmas-pic {
+    background-size: 21rem;
+    order: 5;
+  }
+
+  .christmas-quizmas-text {
+    order: 6;
+    text-align: center;
+    padding: 0 3rem;
+  }
+
+  .mystery-pic {
+    background-size: 18rem;
+    order: 7;
+  }
+
+  .mystery-text {
+    order: 8;
+    text-align: center;
+    padding: 0 4rem;
+  }
+}
